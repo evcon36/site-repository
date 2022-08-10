@@ -1,0 +1,42 @@
+html {
+    font-size: 20px;
+    /* px значит 'пиксели': базовый шрифт будет 10 пикселей в высоту  */
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    background-color: #888c91;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 3px 3px 1px rgb(223, 235, 202);
+    text-align: center;
+    font-size: 60px;
+}
+
+p,
+li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #7c45258c;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+#descriptionTable{
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.caption{
+    margin-bottom: 20px;
+}
